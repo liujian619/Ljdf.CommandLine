@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AttrMustApplyToPropOfType" xml:space="preserve">
+    <value>The attribute "{0}" can only be applied to properties of type "{1}".</value>
+  </data>
+  <data name="CannotAssignTo" xml:space="preserve">
+    <value>Cannot assign a value of type "{0}" to a property of type "{2}" in type "{3}".</value>
+  </data>
+  <data name="CannotConvertFrom" xml:space="preserve">
+    <value>Unable to convert the value "{0}" to an object of type "{1}".</value>
+  </data>
+  <data name="HandlerDuplicated" xml:space="preserve">
+    <value>Duplicate addition of handler: "{0}".</value>
+  </data>
+  <data name="HandlerLackOfCmdAttr" xml:space="preserve">
+    <value>The handler "{0}" has not been applied with any "{1}" attributes.</value>
+  </data>
+  <data name="Help_Colon" xml:space="preserve">
+    <value>: </value>
+  </data>
+  <data name="Help_Comma" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="Help_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Help_Done" xml:space="preserve">
+    <value>Command execution completed.</value>
+  </data>
+  <data name="Help_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Help_Option" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Help_Optional" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="Help_OptionalValue" xml:space="preserve">
+    <value>Default Value</value>
+  </data>
+  <data name="Help_Usage" xml:space="preserve">
+    <value>Usages</value>
+  </data>
+  <data name="InvalidCommandName" xml:space="preserve">
+    <value>Invalid command name: "{0}". A command name must contain at least 1 character, consisting of letters, numbers, and hyphens (-), with the first character being a letter.</value>
+  </data>
+  <data name="InvalidLongName" xml:space="preserve">
+    <value>Invalid long name: "{0}". A long name must contain at least 2 characters, consisting only of letters, numbers, and hyphens (-), with the first character being a letter.</value>
+  </data>
+  <data name="InvalidShortName" xml:space="preserve">
+    <value>Invalid short name: "{0}". A short name can only contain one character, and that character must be a letter.</value>
+  </data>
+  <data name="MinCannotGtMax" xml:space="preserve">
+    <value>The value of the "{1}" property of the attribute "{0}" cannot be greater than the value of the attribute "{2}".</value>
+  </data>
+  <data name="OnlyOneDefaultProp" xml:space="preserve">
+    <value>The handler '{0}' can have at most one default property.</value>
+  </data>
+  <data name="OptionNameDuplicated" xml:space="preserve">
+    <value>Duplicate option name: "{0}".</value>
+  </data>
+  <data name="PrintHelp" xml:space="preserve">
+    <value>Print help.</value>
+  </data>
+  <data name="PrintVersion" xml:space="preserve">
+    <value>Print version.</value>
+  </data>
+  <data name="PropOfAttrMustEqOrGtOne" xml:space="preserve">
+    <value>The value of the property "{1}" of the attribute "{0}" must be greater than or equal to 1.</value>
+  </data>
+  <data name="SeeHelp" xml:space="preserve">
+    <value>Use the "-?" option to view help.</value>
+  </data>
+  <data name="ShortNameAndLongNameCannotBeNull" xml:space="preserve">
+    <value>Short name and long name cannot both be null.</value>
+  </data>
+  <data name="UnknownCommandOrOption" xml:space="preserve">
+    <value>Unknown command or option.</value>
+  </data>
+</root>

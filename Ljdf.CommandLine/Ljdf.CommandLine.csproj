@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+		<TargetFrameworks>net6.0;netstandard2.0;net45</TargetFrameworks>
+		<Nullable>disable</Nullable>
+
+		<NeutralLanguage>zh-CN</NeutralLanguage>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		
+		<SignAssembly>True</SignAssembly>
+		<AssemblyOriginatorKeyFile>sign.snk</AssemblyOriginatorKeyFile>
+
+
+		<AssemblyTitle>$(AssemblyName)</AssemblyTitle>
+		<AssemblyVersion>1.0.1</AssemblyVersion>
+
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<PackageId>Ljdf.CommandLine</PackageId>
+		<PackageVersion>$(AssemblyVersion)</PackageVersion>
+		<Description>主要用于命令行参数解析，同时可以生成命令行参数的帮助文档。</Description>
+		<Authors>Liu Jian</Authors>
+		<Copyright>© Liu Jian. All rights reserved.</Copyright>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>command argument;cmd;commandline;parser</PackageTags>
+		<PackageProjectUrl>https://github.com/liujian619/Ljdf.CommandLine</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/liujian619/Ljdf.CommandLine.git</RepositoryUrl>
+		<RepositoryBranch>master</RepositoryBranch>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Resource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resource.en-us.resx"/>
+    <EmbeddedResource Update="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+	<ItemGroup>
+		<None Include="../icon.png" Pack="true" PackagePath="\" />
+		<None Include="../readme.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>
