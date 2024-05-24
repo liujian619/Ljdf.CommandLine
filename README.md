@@ -4,11 +4,7 @@
 
 Mainly used for command-line argument parsing, while also capable of generating help documentation for command-line arguments.
 
-<<<<<<< HEAD
 可以通过 nuget 使用：[![1.0.1](https://img.shields.io/nuget/v/Ljdf.CommandLine?style=flat)](https://www.nuget.org/packages/Ljdf.CommandLine)
-=======
-可以通过 nuget 使用：![1.0.1](https://www.nuget.org/packages/Ljdf.CommandLine?style=flat)
->>>>>>> 3c6f22659736bb8f84b7707ac7133a706e6bc849
 
 
 
