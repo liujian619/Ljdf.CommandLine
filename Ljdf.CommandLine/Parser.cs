@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Text;
 
 namespace Ljdf.CommandLine
 {
@@ -49,6 +50,7 @@ namespace Ljdf.CommandLine
 		{
 			{ typeof(FileInfo), typeof(FileInfoConverter) },
 			{ typeof(DirectoryInfo), typeof(DirectoryInfoConverter) },
+			{ typeof(Encoding), typeof(EncodingConverter) },
 		};
 
 		private readonly ParserConfig _config;
